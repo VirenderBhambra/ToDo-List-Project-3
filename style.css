@@ -1,0 +1,50 @@
+body{
+    min-height: 90vh;
+    width: 100%;
+    margin: 0px;
+    background:linear-gradient(TO RIGHT, #D66900 ,#E8B03F, #FCED0A);
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#todo-item,#date{
+    height: 30px;
+    width:200px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.Add{
+    height: 38px;
+    width: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: green;
+    border-width: 0px;
+}
+.Add:hover{
+    background-color: darkgreen;
+    color:aqua
+}
+.results,.details-enter{
+    display: grid;
+    grid-template-columns: 250px 250px 100px;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.btn{
+    background-color: rgb(206, 66, 66);
+    height: 32px;
+    border-radius: 5px;
+    border:0px
+}
+.btn:hover{
+    background-color: rgb(99, 99, 198);
+    color:gold
+}
